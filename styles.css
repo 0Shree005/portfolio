@@ -389,8 +389,8 @@ section .title::after{
 
 
 .projects .projects-content .left img{
-    height: 400px;
-    width: 400px;
+    height: 360px;
+    width: 358px;
     object-fit: cover;
     border-radius: 36px;
 }
