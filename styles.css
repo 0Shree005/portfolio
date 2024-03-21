@@ -10,7 +10,9 @@
 html{
     scroll-behavior: smooth;
 }
-
+.about-me li {
+    margin-bottom: 10px; /* Adjust this value to get the desired space */
+}
 /* custom scroll bar */
 ::-webkit-scrollbar {
     width: 10px;
@@ -96,9 +98,26 @@ section .title::after{
     justify-content: space-between;
 }
 
+.about-me {
+    font-size: 18px;
+    line-height: 1.6;
+    color: white;
+    text-align: justify;
+    margin: 20px 0;
+}
 
+.image-container {
+    display: flex;
+    overflow-x: auto;
+}
 
-
+.image-container img {
+    flex: 0 0 auto;
+    width: 100%;
+    height: auto;
+    margin-right: 10px;
+    margin: 10px;
+}
 
 
 
